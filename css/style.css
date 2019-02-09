@@ -1,0 +1,28 @@
+.moda{
+
+	position: fixed;
+	width: 60%;
+	height: 60%;
+	border: solid 1px;
+	top: 0;
+	opacity:0.9;
+	background-color: black;
+}
+
+.gana{
+
+	color: green;
+	margin-top: 15%;
+	opacity: 1;
+	font-size: 500%;
+}
+
+.boton{
+	margin-top: 20%;
+	color:white;
+}
+
+.errores h3{
+	color:red;
+	background-color: yellow;
+}

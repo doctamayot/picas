@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title> Picas y Fijas</title>
+ <!-- Latest compiled and minified CSS --> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+    	<div class="row ">
+    		<div class="col-md-12 text-center">
+       <h1>Picas y fijas </h1>
+       		</div>
+    	</div>
+    	<div class="row text-center">
+    		<div class="col-md-12">
+    		<h5>Ingresa cuatro dígitos diferentes</h5>
+    		</div>
+    	</div>
+    	<div class="row text-center">
+    		<form class="col-md-12" onsubmit="return false;">
+    			<input type="number" id ="numero" maxlength=4>
+    			<div class="errores">
+    				<h3 id="repe">NO SE PUEDEN REPETIR NUMEROS</h3>
+    				<h3 id="numeros">DEBEN SER 4 NUMEROS</h3>
+
+    			</div>
+    		</form>
+    	</div>
+    	<div class="row justify-content-md-center">
+    		<div class="col-md-5">	
+    		<table class="table" id="resultado">
+    			<thead>
+	    			<tr>
+	    				<th>Numero</th>
+	    				<th>Picas</th>
+	    				<th>fijas</th>
+	    			</tr>
+	    		</thead>	
+	    			
+    				
+    		</table>
+    		</div>
+    	</div>
+		 <div class="text-center moda">
+		 	<div class=" text-center">
+		 		<h1 class="gana">GANASTE!!!!!!!!</h1> 
+			</div>
+			<button type="button" class="btn btn-warning boton">Volver</button>
+		</div> 
+	</div>
+     
+  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src='js/app.js'></script>
+</body>
+</html>

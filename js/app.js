@@ -109,12 +109,5 @@ function repetidos(num){
             }
             }
         }
-
     });
-
-
-
-
-
-
 });
